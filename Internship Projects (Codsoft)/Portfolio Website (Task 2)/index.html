@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Poppins:wght@400;700&family=Roboto&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Page</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Nikhil's Portfolio</div>
+            <div class="right" id="home">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="firstSection">
+        <div class="leftSection">
+            Hi, My name is <span class="purple">Nikhil</span>
+            <div>and I am a passionate</div>
+            <span id="element"></span>
+            <div class="buttons">
+                <a href="resume.pdf" class="button">Download Resume</a>
+            </div>
+        </div>
+        <div class="rightSection">
+            <img src="bg.jpg" alt="developer img">
+        </div>
+    </section>
+
+    <hr class="line">
+    <h1 class="heading1" id="about">About Me</h1>
+    <section class="section section-left">
+        <div class="paras">
+            <p class="sectiontag text-big">Hello! I am Nikhil Bhamare</p>
+            <p class="sectionSubtag text-small">Proficient in programming languages such as C, C++, Python and Java. I am passionate about developing projects.</p>
+            <p class="sectionSubtag text-small">Email: nikhil.bhamare2004@gmail.com</p>
+            <p class="sectionSubtag text-small">Mobile No.: 9421468984</p>
+        </div>
+        <div class="thumbnail">
+            <img src="bg.jpg" alt="developer Image" class="imgfluid">
+        </div>
+    </section>
+
+    <hr class="line">
+    <h1 class="heading1">My Skills</h1>
+    <section class="skills" id="skills">
+        <div class="skills-row">
+            <div class="skills-column">
+                <h3 class="title">Coding Skills</h3>
+                <div class="skills-box">
+                    <div class="skills-content">
+                        
+                        <div class="progress">
+                            <h3>HTML <span>50%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        
+                        <div class="progress">
+                            <h3>CSS <span>60%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        
+                        <div class="progress">
+                            <h3>JavaScript <span>52%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        
+                        <div class="progress">
+                            <h3>C <span>60%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        
+                        <div class="progress">
+                            <h3>C++ <span>70%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        
+                        <div class="progress">
+                            <h3>Python <span>65%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        
+                        <div class="progress">
+                            <h3>Java <span>70%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skills-column">
+                <h3 class="title">Professional Skills</h3>
+                <div class="skills-box">
+                    <div class="skills-content">
+                        
+                        <div class="progress">
+                            <h3>Team Work <span>78%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        
+                        <div class="progress">
+                            <h3>Leadership <span>72%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        
+                        <div class="progress">
+                            <h3>Creative <span>75%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        
+                        <div class="progress">
+                            <h3>Communiction <span>70%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <hr class="line">
+    <h1 class="heading1" id="projects">My Projects</h1>    
+    <section class="content">
+        <div class="box1 box">
+            <div class="box-content">
+                <h2>Simple Calculator</h2>
+                <div class="box-img" style="background-image: url('bg2.png')"></div>
+            </div>
+        </div>
+        
+        <div class="box1 box">
+            <div class="box-content">
+                <h2>Restaurant Landing Page</h2>
+                <div class="box-img" style="background-image: url('bg3.png')"></div>
+            </div>
+        </div>
+        
+        <div class="box1 box">
+            <div class="box-content">
+                <h2>Portfolio Page</h2>
+                <div class="box-img" style="background-image: url('bg4.png')"></div>
+            </div>
+        </div>
+    </section>    
+        
+        <hr class="line">
+        <section class="contact">
+            <h1 class="heading1" id="contact">Contact Me</h1>
+            <div class="form">
+                <input class="form-input" type="text" name="name" id="name" placeholder="Enter Your Name">
+                <input class="form-input" type="text" name="phone" id="phone" placeholder="Enter Your Phone">
+                <input class="form-input" type="text" name="email" id="email" placeholder="Enter Your Email">
+                <textarea class="form-input" name="text" id="text" cols="52" rows="10"
+                    placeholder="Enter Your thoughts...."></textarea>
+                <a href="#" class="submitbtn">Submit</a>
+            </div>
+        </section>
+
+        <footer>
+            <div class="foot-panel1">
+                <a href="#home" class="backtotop">Back to Top</a>
+            </div>
+            <p class="footer">
+                Copyright &copy; 2024 www.myportfolio.com - All rights reserved
+            </p>
+        </footer>
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <script src="script.js"></script>
+</body>
+
+</html>
