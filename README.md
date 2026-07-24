@@ -107,11 +107,6 @@ Through these projects, I gained experience in:
 These projects were developed as part of a Web Development Internship to enhance practical frontend development skills and build real-world web applications.
 
 ---
-
-# Author
-
-**Nikhil Bhamare**
-
 # Author
 
 **Nikhil Bhamare**
