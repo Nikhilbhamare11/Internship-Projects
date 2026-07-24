@@ -6,7 +6,7 @@ This repository contains three web development projects completed during my inte
 
 # Projects Included
 
-## 1. Restaurant Landing Page
+## 1. Landing Page
 
 ### Overview
 
