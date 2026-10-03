@@ -6,7 +6,11 @@ This repository contains three web development projects completed during my inte
 
 # Projects Included
 
+<<<<<<< HEAD
 ## 1. Landing Page.
+=======
+## 1. Landing Page
+>>>>>>> 050417ea57ebfcee9dc46bd9b8476e1ec4629ed0
 
 ### Overview
 
